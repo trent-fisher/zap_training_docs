@@ -15,7 +15,7 @@ comment: false
 # Bookings Management Training Guide
 
 ## Overview
-The Bookings module displays all booking enquiries submitted through your website's booking form. These are customers who have filled out detailed travel requests including flights, accommodation, and other travel services. This module allows you to view booking details and track their assignment status. This guide covers how to search, filter, view, and manage booking enquiries.
+The Bookings page displays all booking enquiries submitted through your website's booking form. These are customers who have filled out detailed travel requests including flights, accommodation, and other travel services. This page allows you to view booking details and track their assignment status. This guide covers how to search, filter, view, and manage booking enquiries.
 
 ---
 
@@ -64,9 +64,9 @@ Booking enquiries are automatically captured when:
 2. Fills out the booking enquiry form
 3. Submits their travel requirements
 4. System creates a booking record
-5. System creates a corresponding lead in the Leads module
+5. System creates a corresponding lead in the Leads page
 
-**Important**: Booking enquiries are view-only in this module. To manage them (assign agents, change status, etc.), you must work with them through the **Leads module**.
+**Important**: Booking enquiries are view-only in this page. To manage them (assign agents, change status, etc.), you must work with them through the **Leads page**.
 
 ---
 
@@ -352,7 +352,7 @@ Click the **"Download"** button (top right) to export all bookings.
 
 ### Important Limitation
 
-**This module is VIEW-ONLY**. You cannot:
+**This page is VIEW-ONLY**. You cannot:
 - Assign agents to bookings
 - Change booking status
 - Edit customer information
@@ -362,7 +362,7 @@ Click the **"Download"** button (top right) to export all bookings.
 
 To manage a booking enquiry:
 
-1. Note the customer's name or email from Bookings module
+1. Note the customer's name or email from Bookings page
 2. Navigate to **Admin → CRM → Leads**
 3. Search for the lead by:
    - Customer name
@@ -370,7 +370,7 @@ To manage a booking enquiry:
    - Phone number
 4. The lead will have "Lead Source: Booking Enquiry Form"
 5. Click edit icon on the lead
-6. Manage through Leads module:
+6. Manage through Leads page:
    - Assign agent
    - Change status
    - Create contact
@@ -378,8 +378,8 @@ To manage a booking enquiry:
    - Convert to deal
 
 **Why This Design?**
-- Bookings module: Quick reference for raw enquiries
-- Leads module: Full management capabilities
+- Bookings page: Quick reference for raw enquiries
+- Leads page: Full management capabilities
 - Prevents duplicate management interfaces
 - Maintains data consistency
 
@@ -394,7 +394,7 @@ To manage a booking enquiry:
 2. Apply Status filter: "Unassigned"
 3. Review each unassigned booking
 4. Note customer details and preferences
-5. Switch to Leads module
+5. Switch to Leads page
 6. Find corresponding lead
 7. Assign to appropriate agent
 8. Agent begins qualification process

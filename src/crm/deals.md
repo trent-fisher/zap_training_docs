@@ -6,8 +6,10 @@ category:
   - Guide
 tag:
   - Markdown
-comment: false
+contributors: false
+editLink: false
 author: false
+comment: false
 
 
 ---
@@ -39,7 +41,7 @@ The Deals page displays all active deals in a table format with the following in
 ### How Deals Are Created
 
 Deals are **automatically created** when:
-1. A lead reaches "Interested" status in the Leads module
+1. A lead reaches "Interested" status in the Leads page
 2. A contact exists for that lead
 3. The lead is saved with the new status
 
@@ -292,7 +294,7 @@ These fields pre-populate from contact but can be edited:
 #### 4. Customer Billing Information (Required)
 
 **Address Search**:
-Uses the same intelligent search as Companies and Contacts modules.
+Uses the same intelligent search as Companies and Contacts pages.
 
 **To Add Billing Address**:
 1. Type address in search field
@@ -601,7 +603,7 @@ Click the **"Download"** button to export all deals to CSV format.
 Understanding the stages helps track deal progress:
 
 **Stage Progression**:
-1. **Qualification**: Interest established (from Leads module)
+1. **Qualification**: Interest established (from Leads page)
 2. **Proposal**: Preparing and sending quotation
 3. **Negotiation**: Quote accepted/rejected decision
 4. **Documents**: Document collection and verification (if required)
@@ -612,7 +614,7 @@ Each stage contains multiple statuses that track detailed progress.
 
 ---
 
-## Integration with Other Modules
+## Integration with Other pages
 
 ### Deals and Leads
 
@@ -633,7 +635,7 @@ Each stage contains multiple statuses that track detailed progress.
 - Document requirements created per deal
 - Documents stored against deal ID
 - Verification status tracked per deal
-- Documents accessible from multiple modules
+- Documents accessible from multiple pages
 
 ### Deals and Payments
 
@@ -644,130 +646,9 @@ Each stage contains multiple statuses that track detailed progress.
 
 ---
 
-## Troubleshooting
-
-**Deal not appearing in list**
-- Check if lead reached "Interested" status
-- Verify contact exists for lead
-- Use search function with Lead ID
-- Refresh page
-
-**Cannot move to next status**
-- Verify current status allows transition (check State Machine)
-- Ensure prerequisites met (documents verified, payment received, etc.)
-- Contact administrator if valid transition blocked
-
-**Payment link generation fails**
-- Verify all required fields completed
-- Check mobile number format
-- Ensure valid email address
-- Verify billing address selected
-- Check internet connection
-- Contact administrator if persistent
-
-**Documents not uploading**
-- Check file size (may have limits)
-- Verify file format supported
-- Ensure stable internet connection
-- Try different browser
-- Contact administrator if issue persists
-
-**Payment status not updating**
-- Status updates may have delay
-- Click "View Payment Info" to force refresh
-- Check Peach Payments dashboard
-- Contact payment gateway support
-
-**Cannot verify document**
-- Ensure document has been uploaded
-- Click document link to view
-- Refresh page and try again
-- Contact administrator if button not working
-
-**Probability not displaying**
-- Probability may need to be set initially
-- Check if deal has value assigned
-- Refresh page
-- Contact administrator
-
----
-
-## Common Workflows
-
-### Standard Deal Closure (With Documents)
-
-1. Lead converts to "Interested" → Deal created
-2. Agent assigned (or inherited from lead)
-3. Move to "Preparing Quotation"
-4. Prepare quote document/itinerary
-5. Move to "Quotation Sent"
-6. Customer reviews quote
-7. Move to "Quote Accepted"
-8. Select "Documents Required: Yes"
-9. Check required document types → Save
-10. Deal moves to "Awaiting Documents"
-11. Documents uploaded (by agent or customer)
-12. Verify each document
-13. Move to "Documents Received" → "Verifying Documents" → "Documents Verified"
-14. Move to "Generating Payment Link"
-15. Click "Generate Payment Link"
-16. Complete payment form
-17. Click Generate
-18. Deal moves to "Awaiting Payment"
-19. Monitor payment status
-20. Customer pays
-21. Move to "Payment Received"
-22. Move to "Won" 
-
-### Fast-Track Deal (No Documents)
-
-1. Lead converts to "Interested" → Deal created
-2. Move through quotation stages
-3. Quote Accepted
-4. Select "Documents Required: No"
-5. Move to "Generating Payment Link"
-6. Generate payment link
-7. Customer pays
-8. Move to "Payment Received"
-9. Move to "Won" 
-
-### Recovering Unpaid Deal
-
-1. Deal at "Awaiting Payment"
-2. Check "View Payment Info"
-3. Link expired or customer didn't pay
-4. Select "Payment Not Received"
-5. Option A: Move to "Generating Payment Link" → Generate new link
-6. Option B: Move to "Lost" if customer unresponsive
-
----
-
-## Tips for Success
-
-1. **Respond to Payment Status**: Check payment status daily and act on changes
-
-2. **Clear Communication**: Keep customers informed at each stage
-
-3. **Document Everything**: Use notes feature to track interactions
-
-4. **Set Reminders**: Follow up before payment links expire
-
-5. **Accurate Data**: Ensure all customer information correct before generating payment
-
-6. **Verify Quickly**: Don't let documents sit unverified
-
-7. **Learn Patterns**: Note which stages cause delays and address them
-
-8. **Clean Pipeline**: Regularly update or close stale deals
-
-9. **Use Filters**: Sort by probability or value to prioritize
-
-10. **Celebrate Wins**: Acknowledge successful closures
-
----
 
 ## Support
 
-For additional assistance with the Deals module, payment gateway issues, or document management, contact your system administrator or refer to the main CRM documentation.
+For additional assistance with the Deals page, payment gateway issues, or document management, contact your system administrator or refer to the main CRM documentation.
 
 For Peach Payments technical support, refer to payment gateway documentation or contact their support team directly.

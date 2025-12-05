@@ -18,7 +18,7 @@ author: false
 # Package Enquiries Training Guide
 
 ## Overview
-View all package enquiry submissions from your website. This is a **view-only** module - to assign agents or manage enquiries, go to the **Leads module**.
+View all package enquiry submissions from your website. This is a **view-only** page - to assign agents or manage enquiries, go to the **Leads page**.
 
 Navigate to: **Admin → Enquiries → Package Enquiries**
 
@@ -85,7 +85,7 @@ Click **eye icon** → modal shows:
 
 ## Managing Enquiries
 
-**You cannot assign or update from this module.**
+**You cannot assign or update from this page.**
 
 To manage:
 1. Note customer email/name

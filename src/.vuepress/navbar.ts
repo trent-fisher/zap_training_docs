@@ -4,25 +4,25 @@ export default navbar([
   "/",
 //   "/portfolio",
   "/crm/",
-  {
-    text: "Guide",
-    icon: "lightbulb",
-    prefix: "/Admin/",
-    children: [
-      {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
-      },
-    ],
-  },
+//   {
+//     text: "Guide/",
+//     icon: "lightbulb",
+//     prefix: "/Admin/",
+//     children: [
+//       {
+//         text: "Bar",
+//         icon: "lightbulb",
+//         prefix: "bar/",
+//         children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
+//       },
+//       {
+//         text: "Foo",
+//         icon: "lightbulb",
+//         prefix: "foo/",
+//         children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
+//       },
+//     ],
+//   },
 //   {
 //     text: "V2 Docs",
 //     icon: "book",

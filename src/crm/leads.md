@@ -7,9 +7,10 @@ category:
   - Guide
 tag:
   - Markdown
-comment: false
+contributors: false
+editLink: false
 author: false
-
+comment: false
 
 
 ---
@@ -169,7 +170,7 @@ Leads progress through three main stages visible in the lead interface:
 
 ### Available Statuses in Lead Interface
 
-The main statuses you'll work with in the Leads module:
+The main statuses you'll work with in the Leads page:
 
 - **New** (Lead Generation)
 - **Attempting Contact** (Lead Qualification)
@@ -177,7 +178,7 @@ The main statuses you'll work with in the Leads module:
 - **Not Interested** (Lead Qualification)
 - **Interested** (Contact)
 
-**Note:** The full State Machine contains many more statuses that become relevant as deals progress through the sales pipeline. The Leads module focuses on the early stages up to "Interested."
+**Note:** The full State Machine contains many more statuses that become relevant as deals progress through the sales pipeline. The Leads page focuses on the early stages up to "Interested."
 
 ### Moving a Lead Status
 
@@ -364,19 +365,7 @@ When viewing a booking enquiry lead, you'll see:
 
 ---
 
-## Best Practices
 
-1. **Respond Quickly**: New leads should be contacted within 24 hours
-2. **Keep Status Updated**: Move leads through stages as you progress according to State Machine workflow
-3. **Follow the Workflow**: Always progress leads through proper status transitions
-4. **Create Contacts Early**: Don't wait until "Interested" to create contacts
-5. **Document Everything**: Keep detailed notes on each status change
-6. **Assign Appropriately**: Match leads to agents based on expertise
-7. **Regular Review**: Check unassigned and stalled leads daily
-8. **Clean Data**: Keep contact information accurate and up-to-date
-9. **Monitor the Pipeline**: Use State Machine view to understand where leads are stuck
-
----
 
 ## Common Workflows
 
@@ -413,54 +402,15 @@ When viewing a booking enquiry lead, you'll see:
 
 ---
 
-## Managing the State Machine (Admin Function)
 
 ### Accessing State Machine Settings
 
 Navigate to: **Admin → Ref Data → State Machine**
 
-### Adding New Status Transitions
 
-1. Click **"Add State Machine"** button
-2. Select **Current Status** from dropdown
-3. Use the **PickList** to select which statuses can be transitioned to
-   - Left column: Available statuses
-   - Right column: Selected statuses (will be allowed transitions)
-4. Move statuses between columns using arrow buttons
-5. Click **"Add State Machine"**
-
-**Note:** Only administrators should modify the State Machine as it affects the entire team's workflow.
-
----
-
-## Troubleshooting
-
-**Can't move lead to desired status**
-- Check State Machine to see valid transitions
-- Ensure you're following the proper workflow sequence
-- Contact administrator if status transition is missing
-
-**Can't move lead to "Interested"**
-- Ensure a contact exists for this lead
-- Use "Create Contact" button if needed
-
-**Lead not appearing in search**
-- Check spelling
-- Try searching by different field
-- Verify lead exists in system
-
-**Assignment not saving**
-- Ensure agent is selected
-- Click Save button
-- Refresh page to verify
-
-**Status seems stuck**
-- Review State Machine workflow
-- Verify you're at the correct current status
-- Check if prerequisites are met (e.g., contact created)
 
 ---
 
 ## Support
 
-For additional assistance with the Leads module or State Machine configuration, contact your system administrator or refer to the main CRM documentation.
+For additional assistance with the Leads page or State Machine configuration, contact your system administrator or refer to the main CRM documentation.

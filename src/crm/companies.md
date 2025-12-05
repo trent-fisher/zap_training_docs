@@ -300,12 +300,12 @@ The address search uses Google Places API to provide accurate, standardized addr
 
 ---
 
-## Integration with Other Modules
+## Integration with Other pages
 
 ### Companies and Contacts
 
-When creating a **Company Contact** in the Contacts module:
-- You must first have the company created in this module
+When creating a **Company Contact** in the Contacts page:
+- You must first have the company created in this page
 - The contact will be linked to the company
 - Company details flow through to contact records
 
@@ -353,69 +353,8 @@ Company records connect to deals for:
 
 ---
 
-## Troubleshooting
-
-**Address not appearing in search**
-- Check spelling of street name or area
-- Try searching with just city/suburb name
-- Toggle Global Search if company is international
-- Verify you have internet connection
-
-**Slug not generating**
-- Slug generates automatically when you type Trading Name
-- If not appearing, try clicking outside the Trading Name field
-- Contact administrator if issue persists
-
-**VAT Number field disabled**
-- Ensure "VAT Registered?" checkbox is checked
-- Checkbox must be ON to enable VAT number entry
-
-**Cannot find company in table**
-- Use keyword search with partial company name
-- Try searching by city or phone number
-- Check if search filters are applied
-- Clear browser cache and refresh
-
-**Changes not saving**
-- Ensure all required fields are filled
-- Check for error messages
-- Verify internet connection
-- Try logging out and back in
-
-**Duplicate companies appearing**
-- This may indicate the company was added twice
-- Contact administrator to merge records
-- In future, always search first before adding
-
----
-
-## Tips for Efficient Company Management
-
-1. **Use Descriptive Trading Names**: Make companies easy to identify at a glance
-
-2. **Complete Setup Immediately**: Don't save partial records
-   - Add all available information in one session
-   - Reduces need for later edits
-
-3. **Leverage Address Search**: Always use the search feature
-   - More accurate than manual entry
-   - Enables location features
-
-4. **Regular Audits**: Periodically review company list
-   - Remove defunct companies
-   - Update outdated information
-   - Merge duplicates
-
-5. **Export Regularly**: Download CSV backups
-   - Keeps external records
-   - Useful for reporting
-
-6. **Link to Contacts**: Create company contacts after adding company
-   - Maintains relationships
-   - Enables better communication tracking
-
 ---
 
 ## Support
 
-For additional assistance with the Companies module, contact your system administrator or refer to the main CRM documentation.
+For additional assistance with the Companies page, contact your system administrator or refer to the main CRM documentation.

@@ -19,15 +19,17 @@ tag:
 sticky: true
 # this page will appear in starred articles
 star: true
-# You can customize footer content
-footer: Footer content for test
-# You can customize copyright content
-copyright: No Copyright
+
+
+contributors: false
+editLink: false
+comment: false
+
 ---
 # Payment Links Management Training Guide
 
 ## Overview
-The Payment Links page allows you to view and manage all payment links generated through Peach Payments for your customers. This is a read-only module where you can monitor payment link status, track transactions, and access customer payment information. This guide covers how to view, search, refresh, and download payment link data.
+The Payment Links page allows you to view and manage all payment links generated through Peach Payments for your customers. This is a read-only page where you can monitor payment link status, track transactions, and access customer payment information. This guide covers how to view, search, refresh, and download payment link data.
 
 ---
 
@@ -495,7 +497,7 @@ Use the search box in the admin portal to find specific customers instantly.
 
 ### Required Customer Information for Payment Links
 
-When generating payment links (in other system modules), ensure you collect:
+When generating payment links (in other system pages), ensure you collect:
 - Customer first name
 - Customer surname
 - Valid email address
@@ -511,19 +513,6 @@ When generating payment links (in other system modules), ensure you collect:
 
 ---
 
-## Integration Notes
-
-The Payment Links module integrates with:
-
-**Booking System**: Invoice IDs link payments to specific bookings
-
-**Customer Records**: Customer names and contact info should match CRM records
-
-**Accounting Software**: CSV exports can be imported for financial reconciliation
-
-**Email System**: Payment link sent automatically to customer email
-
-**Peach Payments Gateway**: Real-time status updates from payment processor
 
 ---
 
@@ -558,86 +547,9 @@ The Payment Links module integrates with:
 
 ---
 
-## Frequently Asked Questions
-
-**Q: Can I edit a payment link after it's created?**
-A: No, payment links cannot be edited. Generate a new link with correct details.
-
-**Q: What happens after payment link expires?**
-A: Customer cannot use expired link. Generate new link if payment still needed.
-
-**Q: How long does it take for payment status to update?**
-A: Usually instant, but can take up to 5 minutes. Click Refresh to check.
-
-**Q: Can I delete payment links?**
-A: No, payment links are maintained for record-keeping and audit purposes.
-
-**Q: Why don't I see a payment link I just created?**
-A: Click Refresh to load latest data from Peach Payments.
-
-**Q: Can customers pay more than the amount shown?**
-A: No, payment amount is fixed when link is generated.
-
-**Q: What if customer pays after expiry date?**
-A: Link won't work after expiry. Generate new link for customer.
-
-**Q: How do I process refunds?**
-A: Contact Peach Payments support with Payment Link ID for refund process.
-
-**Q: Can I customize payment link expiry time?**
-A: Expiry is set when generating link. Contact admin for default settings.
-
-**Q: What payment methods can customers use?**
-A: Customers can use credit/debit cards accepted by Peach Payments (Visa, Mastercard, etc.).
-
----
-
-## Support and Escalation
-
-**For Payment Link Issues**:
-- First: Click Refresh and search again
-- Second: Check Peach Payments system status
-- Third: Contact Peach Payments support with Payment Link ID
-
-**For Technical Issues**:
-- Browser problems: Clear cache, try different browser
-- Data not loading: Check internet connection
-- System errors: Contact your IT support team
-
-**For Customer Payment Issues**:
-- Provide customer with Payment Link ID
-- Direct customer to Peach Payments support
-- Generate replacement link if needed
-
----
-
-## Quick Reference Card
-
-**Navigation**: Admin → CRM → Payments
-
-**Key Actions**:
-- **Refresh**: Updates table with latest payment data
-- **Search**: Find specific payment by name or ID
-- **Copy**: Click icon next to URL to copy link
-- **Download**: Export all data to CSV
-- **Sort**: Click column headers
-
-**Important Columns**:
-- **Status**: Current payment state
-- **Expiry Date**: When link stops working
-- **Amount**: Payment value in ZAR
-- **Invoice ID**: Links to your booking
-
-**Remember**:
-- Refresh regularly for latest data
-- Check expiry before sharing links
-- Download CSV monthly for records
-- Follow up on pending payments before expiry
-
----
 
 ## Support
 
-For additional assistance with the Payment Links module, contact your system administrator or Peach Payments support team.
+For additional assistance with the Payment Links page, contact your system administrator or Peach Payments support team.
 
 **Peach Payments Support**: Include Payment Link ID in all queries

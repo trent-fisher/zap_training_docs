@@ -18,7 +18,7 @@ author: false
 # Contact Us Enquiries Training Guide
 
 ## Overview
-View all contact form submissions from your website. This is a **view-only** module - to assign agents or manage inquiries, go to the **Leads module**.
+View all contact form submissions from your website. This is a **view-only** page - to assign agents or manage inquiries, go to the **Leads page**.
 
 Navigate to: **Admin → Enquiries → Contact Form Enquiries**
 
@@ -42,11 +42,7 @@ Navigate to: **Admin → Enquiries → Contact Form Enquiries**
 ### Global Search (searches everything)
 Type to search across: name, email, phone, subject, message, agent, status
 
-**Useful searches:**
-- "safari" - Find safari inquiries
-- "urgent" - Find urgent messages
-- "payment" - Find payment issues
-- "booking" - Find booking-related inquiries
+
 
 ### Column Filters
 
@@ -72,7 +68,7 @@ Type to search across: name, email, phone, subject, message, agent, status
 
 ## Managing Inquiries
 
-**You cannot assign or update from this module.**
+**You cannot assign or update from this page.**
 
 To manage an inquiry:
 1. Note customer email or name
@@ -97,7 +93,7 @@ Includes: all names, contacts, full subjects, full messages, status, agents
 
 **Assigned (Green)**: Agent assigned and handling
 
-Status updates happen in Leads module, reflect here automatically.
+Status updates happen in Leads page, reflect here automatically.
 
 ---
 
