@@ -1,5 +1,5 @@
 ---
-title: custom
+title: Custom Packages
 icon: fa6-solid:box-open
 
 order: 2

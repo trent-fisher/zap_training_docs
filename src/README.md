@@ -9,12 +9,12 @@ heroText: Overview
 tagline: Complete training for managing the Zap Travel admin portal and integrated CRM system
 actions:
   - text: Get Started
-    link: /admin/
+    link: /admin/calendar.md
     type: primary
 
   - text: CRM Overview
     link: /crm/
-
+    
 highlights:
   - header: Enquiry Management
     image: /assets/image/enquiries.svg
@@ -32,36 +32,35 @@ highlights:
       - title: Package CRUD
         icon: suitcase
         details: Full create, read, update, and delete functionality for travel packages
-        link: /guide/packages/
+        link: /admin/Packages/Packages.html#creating-a-new-package
 
       - title: Live Publishing
         icon: globe
         details: Packages appear instantly on your travel website
-        link: /guide/packages/publishing.html
+        link: /admin/Packages/Packages.html#image-gallery
 
       - title: Package Management
         icon: list-check
         details: Organize and categorize packages for easy customer discovery
-        link: /guide/packages/management.html
+        link: /admin/Packages/Packages.md
 
   - header: Calendar & Events
     description: Schedule and track all CRM activities including meetings, site visits, follow-ups, and important milestones.
     image: /assets/image/calendar.svg
     highlights:
-      - title: FullCalendar View
+      - title: Full Calendar View
         icon: calendar-days
         details: Month, week, and day views for all CRM events
-        link: /guide/calendar/
+        link: /admin/calendar.html#calendar-views
 
       - title: Event Management
         icon: calendar-check
         details: Create, edit, and delete events with full CRUD functionality
-        link: /guide/calendar/events.html
+        link: /admin/calendar.html#creating-a-new-event
 
       - title: Quick Navigation
         icon: filter
         details: Filter and search events to find what you need quickly
-        link: /guide/calendar/navigation.html
 
   - header: CRM - Leads
     description: Capture and nurture potential customers through the sales pipeline.
@@ -70,22 +69,23 @@ highlights:
       - title: Lead Management
         icon: user-plus
         details: View, search, and manage all leads in a structured data table
-        link: /crm/leads/
+        link: /crm/leads.html#overview
+      
 
       - title: Status Tracking
         icon: chart-line
         details: Move leads through statuses and stages in the sales pipeline
-        link: /crm/leads/status.html
+        link: /crm/leads.html#lead-status-management 
 
       - title: Agent Assignment
         icon: user-tie
         details: Assign leads to specific agents for follow-up
-        link: /crm/leads/assignment.html
+        link: /crm/leads.html#assigning-leads-to-agents
 
       - title: Multi-Source Enquiries
         icon: envelope-open-text
         details: Review enquiry details from bookings, contact forms, and packages
-        link: /crm/leads/enquiries.html
+        link: /crm/leads.html#understanding-form-capture-details
 
   - header: CRM - Companies
     description: Manage business accounts and corporate clients.
@@ -94,22 +94,22 @@ highlights:
       - title: Company Directory
         icon: building
         details: Searchable, scrollable table of all client companies
-        link: /crm/companies/
+        link: /crm/companies.html#searching-and-filtering-companies
 
       - title: Company Management
         icon: pen-to-square
         details: Add and edit company details with validation
-        link: /crm/companies/management.html
+        link: /crm/companies.html#overview
 
       - title: Address Integration
         icon: map-location-dot
         details: Map suggestions for accurate address entry
-        link: /crm/companies/address.html
+        link: /crm/companies.html#step-3-search-and-select-address
 
       - title: CSV Export
         icon: file-csv
         details: Export company lists to CSV for reporting
-        link: /crm/companies/export.html
+        link: /crm/companies.html#downloading-company-data
 
   - header: CRM - Contacts
     description: Maintain detailed records of all customer interactions.
@@ -118,17 +118,16 @@ highlights:
       - title: Contact Database
         icon: address-book
         details: Central place to view, search, and manage all contacts
-        link: /crm/contacts/
 
       - title: Profile Management
         icon: id-card
         details: Edit contact details including address, birthday, company, and profile info
-        link: /crm/contacts/profiles.html
+        link: /admin/Enquiries/contact.html#viewing-full-details
 
       - title: Search & Export
         icon: magnifying-glass
         details: Keyword search and CSV download functionality
-        link: /crm/contacts/search.html
+        link: /admin/Enquiries/contact.html#export-data
 
   - header: CRM - Deals
     description: Track opportunities, proposals, and sales progression.
@@ -137,22 +136,22 @@ highlights:
       - title: Deal Pipeline
         icon: handshake
         details: Searchable, sortable table of all CRM deals with value and probability
-        link: /crm/deals/
+        link: /crm/deals.html#deal-value-and-probability
 
       - title: Deal Management
         icon: file-contract
         details: Edit deal details and manage required documents
-        link: /crm/deals/management.html
+        link: /crm/deals.html#viewing-and-editing-deals
 
       - title: Payment Integration
         icon: credit-card
         details: Generate Peach Payments payment links directly from deals
-        link: /crm/deals/payments.html
+        link: /crm/deals.html#generating-the-link
 
       - title: Status Tracking
         icon: clipboard-list
         details: View payment status and audit history for complete transparency
-        link: /crm/deals/status.html
+        link: /crm/deals.html#managing-deal-status-transitions
 
   - header: CRM - Payments
     description: Generate and monitor payment links and transaction status.
@@ -161,48 +160,32 @@ highlights:
       - title: Payment Links
         icon: link
         details: Display all payment links created through the CRM
-        link: /crm/payments/
+        link: /crm/payments.html#understanding-the-payment-links-table
 
       - title: Search & Filter
         icon: filter
         details: Search, filter, and sort payment links by multiple criteria
-        link: /crm/payments/search.html
+        link: /crm/payments.html#payment-link-data-filtering
 
       - title: Link Management
         icon: copy
         details: Quickly copy or download payment links for customer communication
-        link: /crm/payments/links.html
+        link: /crm/payments.html#sorting-payment-links
 
       - title: Status Monitoring
         icon: circle-check
         details: View customer info, invoice ID, amounts, and payment status with refresh functionality
-        link: /crm/payments/status.html
+        link: /crm/payments.html#monitoring-payment-status
 
-  - header: Getting Started
-    description: Everything you need to begin using the admin portal effectively.
-    image: /assets/image/features.svg
+  - header: Workflows
+    description: Documented workflow guides for CRM and admin processes
+    image: /assets/image/workflow.svg
     features:
-      - title: Quick Start Guide
-        icon: rocket
-        details: Get up and running with the admin portal in minutes
-        link: /guide/quick-start.html
-
-      - title: User Roles
-        icon: users
-        details: Understand permissions and access levels
-        link: /guide/roles.html
-
-      - title: Navigation
-        icon: compass
-        details: Learn how to navigate the interface efficiently
-        link: /guide/navigation.html
-
-      - title: Best Practices
-        icon: star
-        details: Tips and recommendations for optimal workflow
-        link: /guide/best-practices.html
+      - title: Package Enquiry and Booking
+        icon: mdi:package-variant-closed
+        details: Step-by-step guide for package enquiries and bookings
+        link: /workflow/package_enquiry_and_booking.md
 
 copyright: false
 footer: Zap Travel Admin Portal Documentation | By Tailorfit Technologies
 ---
-

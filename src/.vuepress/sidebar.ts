@@ -3,7 +3,6 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
     "/": [
         "",
-
         {
             text: "CRM",
             icon: "fa6-solid:users-between-lines",
@@ -29,7 +28,6 @@ export default sidebar({
             prefix: "workflow/",
             children: [
                 { text: "Package Enquiry and Booking", link: "/workflow/package_enquiry_and_booking", icon: "mdi:package-variant-closed" },
-
             ],
         },
 

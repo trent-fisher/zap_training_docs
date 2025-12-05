@@ -142,28 +142,6 @@ The system loads payment links from Peach Payments when you open the page. To ge
 
 ---
 
-## Searching for Payment Links
-
-### Keyword Search
-
-Use the search box at the top-left of the table to find payment links by:
-- Customer First Name
-- Customer Surname
-- Payment Link ID
-- Invoice ID
-
-**How to Search**:
-1. Click in the search box (has magnifying glass icon)
-2. Type your search term
-3. Results filter instantly as you type
-4. Example: Type "Sarah" to find all payments for customers named Sarah
-5. Example: Type invoice number to find specific payment
-
-**Search Tips**:
-- Search is case-insensitive
-- Partial matches work (typing "John" finds "Johnson")
-- Clear search box to see all payment links again
-
 ---
 
 ## Sorting Payment Links
