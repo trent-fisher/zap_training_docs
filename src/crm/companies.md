@@ -347,9 +347,6 @@ Company records connect to deals for:
    - Organisation Type affects reporting
    - Company Type determines workflows
 
-6. **Verify VAT Status**: Confirm before checking
-   - Important for invoicing
-   - Affects financial records
 
 ---
 
