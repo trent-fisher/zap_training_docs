@@ -11,23 +11,26 @@ export default sidebar({
             link: "crm/",
             //   children: "structure",
             children: [
-                { text: "Leads",  link: "/crm/leads", icon: "fa6-solid:user-plus" },
-                { text: "Deals",  link: "/crm/deals", icon: "mdi:handshake"},
-                { text: "Payments",  link: "/crm/payments", icon: "mdi:credit-card-outline"},
-                { text: "Companies",  link: "/crm/companies", icon:"mdi:office-building" },
-
-
-
-
+                { text: "Leads", link: "/crm/leads", icon: "fa6-solid:user-plus" },
+                { text: "Deals", link: "/crm/deals", icon: "mdi:handshake" },
+                { text: "Payments", link: "/crm/payments", icon: "mdi:credit-card-outline" },
+                { text: "Companies", link: "/crm/companies", icon: "mdi:office-building" },
             ],
-
-
         },
         {
             text: "Admin",
             icon: "fa6-solid:user-gear",
             prefix: "admin/",
             children: "structure",
+        },
+        {
+            text: "Workflows",
+            icon: "mdi:clipboard-text-outline",
+            prefix: "workflow/",
+            children: [
+                { text: "Package Enquiry and Booking", link: "/workflow/package_enquiry_and_booking", icon: "mdi:package-variant-closed" },
+
+            ],
         },
 
     ],
