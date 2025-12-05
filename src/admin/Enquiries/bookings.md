@@ -377,11 +377,6 @@ To manage a booking enquiry:
    - Move through workflow
    - Convert to deal
 
-**Why This Design?**
-- Bookings page: Quick reference for raw enquiries
-- Leads page: Full management capabilities
-- Prevents duplicate management interfaces
-- Maintains data consistency
 
 ---
 
