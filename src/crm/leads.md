@@ -4,14 +4,14 @@ icon: fa6-solid:user-plus       # lead
 order: 2
 comments: false
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - Markdown
+  - Guide
 contributors: false
 editLink: false
 author: false
 comment: false
-
 
 ---
 # Leads Management Training Guide

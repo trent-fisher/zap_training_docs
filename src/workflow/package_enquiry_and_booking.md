@@ -4,14 +4,12 @@ icon: mdi:package-variant-closed
 order: 2
 comments: false
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - Markdown
+  - Guide
 comment: false
 author: false
-
-
-
 ---
 
 # Package Enquiry and Booking Workflow Guide
@@ -991,50 +989,6 @@ Use this checklist for each booking:
 - Review package performance
 
 ---
-
-## Troubleshooting Common Issues
-
-**Enquiry not appearing as lead**
-- Check Leads module carefully
-- Search by customer name or email
-- Refresh the page
-- Check if enquiry went to spam/different system
-- Contact administrator if enquiry clearly submitted but missing
-
-**Cannot find package using reference code**
-- Verify reference code is correct
-- Check for typos or spaces
-- Search in Custom Packages module
-- Package may be archived or deleted
-- Contact administrator if package should exist
-
-**Payment link not sending**
-- Verify client email address is correct
-- Check spam/junk folders
-- Resend payment link
-- Try alternative email address
-- Contact Peach Payments support if persistent
-
-**Payment showing pending but client claims paid**
-- Click Refresh in Payment Links module
-- Wait 5-10 minutes for processing
-- Check with client for confirmation email/reference
-- Contact Peach Payments with Payment Link ID
-- May be processing delay
-
-**Client cannot access payment link**
-- Verify link hasn't expired
-- Check client is clicking correct link
-- Link should open in browser
-- Try different browser/device
-- Generate new payment link if corrupted
-
-**Lead status not updating**
-- Ensure you click Save/Submit after changes
-- Check internet connection
-- Try logging out and back in
-- Clear browser cache
-- Contact administrator if persistent
 
 ---
 

@@ -2,10 +2,10 @@
 icon: mdi:office-building        # for company
 title: Companies
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - encryption
-
+  - Guide
 contributors: false
 editLink: false
 author: false

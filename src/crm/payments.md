@@ -13,7 +13,6 @@ category:
   - CRM
 # A page can have multiple tags
 tag:
-  - Page config
   - Guide
 # this page is sticky in article list
 sticky: true

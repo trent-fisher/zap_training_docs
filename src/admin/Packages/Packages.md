@@ -4,9 +4,10 @@ icon: fa6-solid:box-open
 
 order: 2
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - Markdown
+  - Guide
 ---
 
 # Custom Packages Management Training Guide

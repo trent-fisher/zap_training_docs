@@ -2,10 +2,10 @@
 title: Bookings
 icon: fa6-solid:calendar-check
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - encryption
-
+  - Guide
 contributors: false
 editLink: false
 author: false

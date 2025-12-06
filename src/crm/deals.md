@@ -3,9 +3,10 @@ title: Deals
 icon: mdi:handshake              # for deal
 order: 2
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - Markdown
+  - Guide
 contributors: false
 editLink: false
 author: false

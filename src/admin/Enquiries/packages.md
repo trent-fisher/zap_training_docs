@@ -4,9 +4,10 @@ icon: mdi:package-variant-closed
 order: 2
 comments: false
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - Markdown
+  - Guide
 comment: false
 author: false
 

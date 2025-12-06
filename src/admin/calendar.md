@@ -2,12 +2,14 @@
 title: Calendar
 icon: mdi:calendar-month-outline # for calendar
 order: 2
+author: false
 category:
-  - Guide
+  - CRM
+# A page can have multiple tags
 tag:
-  - Markdown
+  - Guide
 ---
-# Calendar Management Training Guide
+# Calendar Management Guide
 
 ## Overview
 The Calendar page allows you to view, create, and manage events in a visual calendar interface. Events can include meetings, appointments, deadlines, bookings, or any time-sensitive activities. This guide covers how to view the calendar, create events, edit existing events, and delete events.
